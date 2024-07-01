@@ -1,0 +1,19 @@
+body {
+  font-family: var(--font-family-base), sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// UTILITY CLASS-NAMES
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
